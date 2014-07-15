@@ -1,0 +1,87 @@
+header {
+	height: 180px;
+	padding-left: 20px;
+	border: 1px solid black;
+	font-family: "Century Gothic", sans-serif;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 0.2em;
+	background-color: rgba(83, 198, 153, .5);
+}
+
+form {
+	clear: right;
+	font-family: "Century Gothic", sans-serif;
+}
+
+#currentList {
+	float: right;
+	font-family: "Century Gothic", sans-serif;
+	margin-right: 100px;
+	margin-top: 15px;
+	padding-left: 15px;
+	height: 300px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+#entryForm {
+	float: left;
+	clear: right;
+	margin-left: 50px;
+}
+
+#item {
+	height: 30px;
+	width: 300px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: "Century Gothic", sans-serif;
+	background-color: rgba(83, 198, 153, .2);
+	color: darkgray;
+}
+
+#notes {
+	width: 300px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: "Century Gothic", sans-serif;
+	background-color: rgba(83, 198, 153, .2);
+	color: darkgray;
+	border: 1px solid grey;
+}
+
+button {
+	height: 20px;
+	width: 50px; 
+	font-family: "Century Gothic", sans-serif;
+}
+
+#submit {
+	height: 75px;
+	width: 150px;
+	font-family: "Century Gothic", sans-serif;
+}
+
+#current_list {
+	list-style-type: none;
+}
+
+li {
+	color: darkgray;
+	font-size: 14px;
+}
+
+footer {
+	clear: left;
+	clear: right;
+	position: relative;
+	top: 150px;
+	margin-top: 40px;
+	height: 40px;
+	border-top: 1px solid black;
+	text-align: left;
+	font-family: "Pacifico", cursive;
+	font-size: 20px;
+	color: darkgray;
+}
