@@ -1,0 +1,38 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<!-- font -->
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<title>Alli's To Do List</title>
+
+</head>
+
+<body>
+	<header>
+		<h1>Plan for the Day</h1>
+	</header>
+
+	<div id ="entryForm">
+		<form id="todo_list">
+			<p><label>What Needs to Get Done?</label></p>
+			<p><input type="text" name="todo" id="item" placeholder="Enter to-do items here."></p>
+
+			<p><label>Notes...</label></p>
+			<p><textarea rows="7" col="50" name="notes" id="notes" placeholder="Write it out."></textarea></p>
+
+			<!-- Do I need to add value=? -->
+			<p><input id="submit" value="Add to List" type="submit"></p>
+		</form>
+	</div>
+
+	<div id="currentList">
+		<h2>Things You Have To Do</h2>
+			<ul id="current_list"></ul>
+	</div>
+
+	<footer>"Do what you have to do, until you can do what you want to do."</footer>
+
+
+<script src="apppractice.js"></script>
+</body>
+</html>
